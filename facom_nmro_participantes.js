@@ -29,3 +29,8 @@ var chart = new Chart(ctx, {
     // Configuration options go here
     options: {}
 });
+if(1 == 1){
+    console.log('teste')
+}else {
+    console.log('teste')
+}
