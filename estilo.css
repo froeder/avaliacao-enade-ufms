@@ -1,12 +1,29 @@
 .title {
     text-align: center ;
-    font-size: 1em ;
+    font-size: 1.5em ;
     font-weight: 900 ;
 }
 
 .subtitle {
     text-align: center ;
-    font-size: 0.7em ;
+    font-size: 1em ;
     font-weight: 100 ;
     color: grey
+}
+
+.conteudo{
+    padding: 10em ;
+    /* background-color: grey */
+    /* margin-bottom: 100px */
+}
+
+.nav{
+    background-color: #ADD8E6 ;
+    position: fixed;
+    width: 100% ;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0px
 }

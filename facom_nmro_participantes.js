@@ -1,4 +1,4 @@
-var ctx = document.getElementById('facom').getContext('2d');
+var ctx = document.getElementById('facom_numero_participantes').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
     type: 'bar',
