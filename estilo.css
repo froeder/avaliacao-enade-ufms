@@ -12,7 +12,9 @@
 }
 
 .conteudo{
-    padding: 10em ;
+    padding-top: 10em ;
+    padding-left: 5em ;
+    padding-right: 5em ;
     /* background-color: grey */
     /* margin-bottom: 100px */
 }

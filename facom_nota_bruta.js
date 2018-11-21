@@ -1,7 +1,7 @@
-var ctx = document.getElementById('facom_nmro_participantes').getContext('2d');
+var ctx = document.getElementById('facom_nota_bruta').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
-    type: 'bar',
+    type: 'line',
 
     // The data for our dataset
     data: {
@@ -14,14 +14,14 @@ var chart = new Chart(ctx, {
         ],
         datasets: [{
             label: "Quantidade alunos por curso",
-            backgroundColor: 'blue',
+            backgroundColor: 'rgb(220,20,60, 0.6)',
             borderColor: 'rgb(255, 99, 132)',
             data: [
-                26,
-                25,
-                20,
-                12,
-                21
+                56.5500,
+                62.7720,
+                55.2150,
+                59.0917,
+                66.6619
             ],
         }]
     },
