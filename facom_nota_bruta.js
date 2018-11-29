@@ -13,7 +13,7 @@ var chart = new Chart(ctx, {
             "SISTEMAS DE INFORMAÇÃO"
         ],
         datasets: [{
-            label: "Quantidade alunos por curso",
+            label: "Nota bruta",
             backgroundColor: 'rgb(220,20,60, 0.6)',
             borderColor: 'rgb(255, 99, 132)',
             data: [
